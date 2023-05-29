@@ -1,0 +1,14 @@
+@import "src/assets/styles/main";
+
+.row {
+  @include cells_wrapper;
+
+  &__sum {
+    @include cell;
+    background-color: $light-green;
+  }
+
+  &__remove {
+    @include cell;
+  }
+}

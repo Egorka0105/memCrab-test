@@ -1,0 +1,17 @@
+@import "src/assets/styles/main";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: $dark-green;
+  height: 100vh;
+
+  &__title {
+    text-align: center;
+    font-size: 4rem;
+    color: $yellow;
+  }
+}

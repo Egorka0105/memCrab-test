@@ -1,0 +1,15 @@
+@import "src/assets/styles/main";
+
+.average {
+  @include cells_wrapper;
+
+  &__cell {
+    @include cell;
+    background-color: $light-green;
+  }
+
+  &__sum {
+    @include cell;
+    background-color: $red;
+  }
+}
